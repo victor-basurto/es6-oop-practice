@@ -1,0 +1,19 @@
+{
+  "name": "es6-parcel-oop",
+  "version": "1.0.0",
+  "description": "Example using OpenLayers with Parcel",
+  "scripts": {
+    "start": "parcel serve  index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "material-design-lite": "^1.3.0",
+    "ol": "latest"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.0.0"
+  },
+  "browserslist": "defaults"
+}
